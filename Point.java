@@ -28,7 +28,7 @@ public class Point
     {
         y = changeY;
     }
-    public int manhattanDistance(int PointX, int PointY, int PointX2, int PointY2)
+    public int manhattanDistance(Point other)
     {
         return Math.abs(this.x - other.x) + Math.abs(this.y - other.y);
     }
