@@ -30,8 +30,7 @@ public class Point
     }
     public int manhattanDistance(int PointX, int PointY, int PointX2, int PointY2)
     {
-        int distance = Math.abs(PointX-PointY) + Math.abs(PointX2-PointY2);
-        return distance;
+        return Math.abs(this.x - other.x) + Math.abs(this.y - other.y);
     }
     public boolean isCollinear(Point p1, Point p2)
     {
